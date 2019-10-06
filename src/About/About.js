@@ -7,7 +7,7 @@ const About = () => {
           <div className="container">
       
             {/* <!-- About Section Heading --> */}
-            <h2 className="page-section-heading text-center text-uppercase text-white">About</h2>
+            <h2 className="page-section-heading text-center text-uppercase text-white">About Me</h2>
       
             {/* <!-- Icon Divider --> */}
             <div className="divider-custom divider-light">
@@ -29,12 +29,12 @@ const About = () => {
             </div>
       
             {/* <!-- About Section Button --> */}
-            <div className="text-center mt-4">
+            {/* <div className="text-center mt-4">
               <a className="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
                 <i className="fas fa-download mr-2"></i>
                 Free Download!
               </a>
-            </div>
+            </div> */}
             
           </div>
         </section>
