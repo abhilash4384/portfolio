@@ -7,8 +7,14 @@ import ProjectItem from './ProjectItem';
 const ProjectsList = () => {
 
   const [show, setShow] = useState(false);
+  const [projectDetails, setProjectDetails] = useState({});
 
+  const displayModalHandler = (project) => {
+    let modalImage = require(`../assets/${project.imgName}`);
 
+    setProjectDetails({...project, modalImage});
+    setShow(true);
+  }
 
   return (
     // <!-- Portfolio Section -->
@@ -33,22 +39,23 @@ const ProjectsList = () => {
           {
             ProjectData.map(project => {
               return (
-                <ProjectItem setShow={() => setShow(true)} key={project._id} project={project} />
+                <ProjectItem setShow={() => displayModalHandler(project)} key={project._id} project={project} />
               )
             })
           }
-        </div></div>
-      <Modal show={show} onHide={() => setShow(false)}>
+        </div>
+      </div>
+      <Modal size='lg' show={show} onHide={() => setShow(false)}>
         <Modal.Header closeButton>
-          <Modal.Title>Modal title</Modal.Title>
+          <Modal.Title>Project Details</Modal.Title>
         </Modal.Header>
 
         <Modal.Body className="modal-body text-center">
           <div className="container">
             <div className="row justify-content-center">
-              <div className="col-lg-8">
+              <div className="col-lg-10">
                 {/* <!-- Portfolio Modal - Title --> */}
-                <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">Log Cabin</h2>
+                <h2 className="portfolio-modal-title text-secondary text-uppercase mb-0">{projectDetails.title}</h2>
                 {/* <!-- Icon Divider --> */}
                 <div className="divider-custom">
                   <div className="divider-custom-line"></div>
@@ -58,9 +65,18 @@ const ProjectsList = () => {
                   <div className="divider-custom-line"></div>
                 </div>
                 {/* <!-- Portfolio Modal - Image --> */}
-                <img className="img-fluid rounded mb-5" src={cakeImag} alt="" />
+                <img className="img-thumbnail rounded mb-5" style={{height: '200px', width: '200px'}} src={projectDetails.modalImage} alt="" />
                 {/* <!-- Portfolio Modal - Text --> */}
-                <p className="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+                {
+                  projectDetails.link && (
+                  <p>
+                  <a href={projectDetails.link} target='_blank' > Project Link </a>
+                  </p>)
+                }
+                <p className="mb-5">
+                
+                {projectDetails.body}
+                </p>
 
               </div>
             </div>

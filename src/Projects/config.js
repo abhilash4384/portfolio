@@ -1,4 +1,3 @@
-import ProjectItem from "./ProjectItem";
 
 const Projects = [
     {
@@ -10,8 +9,8 @@ const Projects = [
         My roles and responsibilities: Gather requirement from client and
         implement it in Admin dashboard(Web app) and mobile app.
         Deploying app on google play store and apple app store. Writing web
-        api’s. Attending scrum meetings.`,
-        title: `Project 1:  Tethr (Sales Team Management)`,
+        api's. Attending scrum meetings.`,
+        title: `Tethr (Sales Team Management)`,
         imgName: `tethr.png`,
         link: null
     },
@@ -25,7 +24,7 @@ const Projects = [
         just want to start off you trip without the aggravation of traversing
         the airport and wading through security, Flewber has you covered.
         Flewber is a cross platform application for iPhone and Android, to
-        offer taxi service in a private jet. Flewber also integrates UBER API&#39;s
+        offer taxi service in a private jet. Flewber also integrates UBER API's
         to provide taxi users end to end pickup and drop facility.
         My roles and responsibilities: Gather requirement from client and
         implement it in Admin dashboard (Web app) and mobile app.

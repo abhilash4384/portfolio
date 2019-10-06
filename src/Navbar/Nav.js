@@ -10,9 +10,9 @@ const CustomNav = () => {
 
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
-            <Nav.Link href="#projects">Projects</Nav.Link>
-            <Nav.Link href="#about">About Me</Nav.Link>
+            <Nav.Link className='text-white' href="#portfolio">Portfolio</Nav.Link>
+            <Nav.Link className='text-white' href="#projects">Projects</Nav.Link>
+            <Nav.Link className='text-white' href="#about">About Me</Nav.Link>
           </Nav>
         </Navbar.Collapse>
 

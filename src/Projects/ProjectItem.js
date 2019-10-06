@@ -12,8 +12,8 @@ const ProjectItem = ({setShow, project}) => {
                   <i className="fas fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img className="img-fluid" src={require(`../assets/${project.imgName}`)} alt="" />
-              <h3 style={{ textAlign:'center' }}>{project.title}</h3>
+              <img className="img-fluid"  src={require(`../assets/${project.imgName}`)} alt="" />
+              <h3 style={{ textAlign:'center', marginTop: 5 }}>{project.title}</h3>
             </div>
           </div>
 
