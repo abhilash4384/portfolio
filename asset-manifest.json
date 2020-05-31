@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/abhilash4384/portfolio/static/css/main.fac5c936.chunk.css",
+    "main.js": "/abhilash4384/portfolio/static/js/main.5e053d33.chunk.js",
+    "main.js.map": "/abhilash4384/portfolio/static/js/main.5e053d33.chunk.js.map",
+    "runtime-main.js": "/abhilash4384/portfolio/static/js/runtime-main.e4cf9ead.js",
+    "runtime-main.js.map": "/abhilash4384/portfolio/static/js/runtime-main.e4cf9ead.js.map",
+    "static/css/2.79eab2d9.chunk.css": "/abhilash4384/portfolio/static/css/2.79eab2d9.chunk.css",
+    "static/js/2.56d18dd0.chunk.js": "/abhilash4384/portfolio/static/js/2.56d18dd0.chunk.js",
+    "static/js/2.56d18dd0.chunk.js.map": "/abhilash4384/portfolio/static/js/2.56d18dd0.chunk.js.map",
+    "index.html": "/abhilash4384/portfolio/index.html",
+    "precache-manifest.82229e99e7cac3ecfd1b38a40c44dbed.js": "/abhilash4384/portfolio/precache-manifest.82229e99e7cac3ecfd1b38a40c44dbed.js",
+    "service-worker.js": "/abhilash4384/portfolio/service-worker.js",
+    "static/css/2.79eab2d9.chunk.css.map": "/abhilash4384/portfolio/static/css/2.79eab2d9.chunk.css.map",
+    "static/css/main.fac5c936.chunk.css.map": "/abhilash4384/portfolio/static/css/main.fac5c936.chunk.css.map",
+    "static/media/background.jpg": "/abhilash4384/portfolio/static/media/background.be440e2a.jpg",
+    "static/media/cake.png": "/abhilash4384/portfolio/static/media/cake.a29c0b43.png",
+    "static/media/csl.jpg": "/abhilash4384/portfolio/static/media/csl.cdbab86b.jpg",
+    "static/media/encor.jpg": "/abhilash4384/portfolio/static/media/encor.75013c1b.jpg",
+    "static/media/all.min.css": "/abhilash4384/portfolio/static/media/fa-solid-900.ec763292.svg",
+    "static/media/flewber.png": "/abhilash4384/portfolio/static/media/flewber.5cbf3bfa.png",
+    "static/media/iQuantifi.jpg": "/abhilash4384/portfolio/static/media/iQuantifi.e66b9d9a.jpg",
+    "static/media/portfolio.jpg": "/abhilash4384/portfolio/static/media/portfolio.a569a5ba.jpg",
+    "static/media/tethr.png": "/abhilash4384/portfolio/static/media/tethr.14ff55b1.png"
+  }
+}
