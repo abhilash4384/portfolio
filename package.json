@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/abhilash4384/portfolio",
+  "homepage": "https://abhilash4384.github.io/portfolio",
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.13.0",
     "bootstrap": "^4.5.0",
