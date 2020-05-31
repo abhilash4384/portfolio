@@ -7,3 +7,6 @@ npm run deploy
 
 portfolio URL:
 https://abhilash4384.github.io/portfolio/
+
+ISSUES:
+Sometimes there are build errors on git pages. Those are mostly related to hompage url of package.json 
