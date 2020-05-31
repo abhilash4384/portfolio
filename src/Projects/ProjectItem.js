@@ -1,5 +1,4 @@
 import React from 'react';
-import cakeImag from '../assets/cake.png';
 
 const ProjectItem = ({setShow, project}) => {
     return(

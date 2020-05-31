@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import cakeImag from '../assets/cake.png';
 import { Modal, Button } from 'react-bootstrap';
 import ProjectData from './config';
 import ProjectItem from './ProjectItem';
